@@ -16,7 +16,7 @@ export const renderCountriesList = (countries) =>{
 export const renderCountryDetails = (country) => {
     const rootElement = document.querySelector('.main-content');
     rootElement.innerHTML = '';
-    rootElement.appendChild(createLink('Back','/zadania/kraje/index.html'));
+    rootElement.appendChild(createLink('Back','/'));
     rootElement.appendChild(createDetailElement(country));
     rootElement.appendChild(borderCountriesContainer(country));
 };

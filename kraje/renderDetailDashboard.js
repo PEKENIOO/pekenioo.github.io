@@ -35,7 +35,7 @@ fetch(API_DETAIL_URL)
 };
 
 const backToMainPage = () => {
-    window.location.href = "/zadania/kraje/index.html";
+    window.location.href = "/";
 };
 
 export const createLink = (text, link) => {
